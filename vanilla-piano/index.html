@@ -166,6 +166,10 @@
 
 <script>
 
+    const element = document.querySelector('audio[data-key="65"]');
+
+    //how does the appove line of code apply?//
+
     window.addEventListener("keypress", function(keyPressEvent){
         const tone = document.querySelector(`audio[data-key='${keyPressEvent.keyCode}']`);
         if (!tone) return;
